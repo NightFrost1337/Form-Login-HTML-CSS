@@ -1,0 +1,51 @@
+* {}
+
+body {
+    background-color: #1a252f;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #0cd359;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    left: 760px;
+    top: 100px;
+    text-align: center;
+}
+
+.form-box h1 {
+    color: white;
+}
+
+.form-box input[type="email"],
+.form-box input[type="username"],
+.form-box input[type="password"] {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 10px;
+    width: 260px;
+    color: red;
+    border-radius: 24px;
+}
+
+.form-box input[type="submit"] {
+    width: 220px;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 40px;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+}
